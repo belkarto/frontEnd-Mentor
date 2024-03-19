@@ -1,3 +1,62 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 90%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --max-width: 1440px;
+    --mobile-width: 375px;
+    --font-headers: "Young Serif", serif;
+    --general-font: "Outfit", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--Eggshell);
+    font-family: var(--general-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Dark-Charcoal);
+}
+
+.container {
+    background-color: var(--white);
+    max-width: var(--max-width);
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.content-img img {
+    border-radius: 5%;
+}
+
+.content-img>img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: var(--font-headers);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: var(--Nutmeg);
+    font-family: var(--font-headers);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
